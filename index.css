@@ -32,7 +32,7 @@ img {
     text-align: center;
 }
 
-header {
+h1 {
     text-transform: uppercase;
     color: var(--neon-green);
     padding-top: 1rem;
@@ -55,7 +55,8 @@ header {
 .divider {
     width: 100%;
     padding: 0;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 #adviceBtn {
@@ -63,8 +64,10 @@ header {
     border-radius: 50%;
     border: none;
     background-color: var(--neon-green);
-    transform: translateY(80%);
-    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
 }
 
 .attribution {
